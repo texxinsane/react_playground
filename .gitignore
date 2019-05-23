@@ -1,5 +1,24 @@
 .env
-vendor/
 node_modules/
-var/cache/*
-var/log/*
+
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.*.local
+/public/bundles/
+/var/
+/bin/.phpunit
+/vendor/
+###< symfony/framework-bundle ###
+
+.idea
+
+phpunit.xml
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
